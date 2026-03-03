@@ -550,6 +550,16 @@ h2.dark em { color: var(--gold); }
 .team-body { padding:16px 18px; }
 .team-map { width:100%; height:200px; border-radius:8px; overflow:hidden; margin-bottom:12px; border:1px solid rgba(255,255,255,0.08); }
 .team-map iframe { width:100%; height:100%; border:none; }
+.map-directions-btn {
+  display:block; margin-top:8px; text-align:center;
+  background:rgba(46,134,193,0.15); color:#aee2ff;
+  border:1px solid rgba(46,134,193,0.35); border-radius:6px;
+  padding:8px 12px; font-family:'Oswald',sans-serif;
+  font-size:0.75rem; font-weight:700; letter-spacing:0.1em;
+  text-transform:uppercase; text-decoration:none;
+  transition:background 0.2s;
+}
+.map-directions-btn:hover { background:rgba(46,134,193,0.3); color:white; }
 .streets { list-style:none; display:flex; flex-direction:column; gap:5px; margin-bottom:12px; }
 .streets li { display:flex; justify-content:space-between; align-items:center; font-size:0.82rem; padding:6px 9px; background:rgba(0,0,0,0.18); border-radius:5px; }
 .st-name { color:var(--cream); }
@@ -1073,7 +1083,7 @@ footer strong { color:#7788aa; }
           <div class="team-doors">~62<br>doors</div>
         </div>
         <div class="team-body">
-          <div class="team-map"><iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCtxVeYaj6Ag1w_eyzHQ5LpvaA59EEtOOU&origin=12000+Burkhart+Rd,+Orrville,+OH+44667&destination=15999+Burkhart+Rd,+Orrville,+OH+44667&mode=driving" allowfullscreen loading="lazy"></iframe></div>
+          <div class="team-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-81.830%2C40.870%2C-81.770%2C40.910&layer=mapnik" allowfullscreen loading="lazy"></iframe></div><a href="https://www.google.com/maps/dir/12000+Burkhart+Rd,+Orrville,+OH+44667/15999+Burkhart+Rd,+Orrville,+OH+44667" target="_blank" class="map-directions-btn">🗺️ Open Turn-by-Turn Directions</a>
           <ul class="streets">
             <li><span class="st-name">Burkhart Rd (12000–15999)</span><span class="st-ct">~40</span><span class="st-pri pri-h">HIGH</span></li>
             <li><span class="st-name">Hanover Rd</span><span class="st-ct">14</span><span class="st-pri pri-h">HIGH</span></li>
@@ -1092,7 +1102,7 @@ footer strong { color:#7788aa; }
           <div class="team-doors">~70<br>doors</div>
         </div>
         <div class="team-body">
-          <div class="team-map"><iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCtxVeYaj6Ag1w_eyzHQ5LpvaA59EEtOOU&origin=16000+Burkhart+Rd,+Dalton,+OH+44618&destination=19000+Church+Rd,+Dalton,+OH+44618&mode=driving" allowfullscreen loading="lazy"></iframe></div>
+          <div class="team-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-81.860%2C40.820%2C-81.790%2C40.870&layer=mapnik" allowfullscreen loading="lazy"></iframe></div><a href="https://www.google.com/maps/dir/16000+Burkhart+Rd,+Dalton,+OH+44618/19000+Church+Rd,+Dalton+OH+44618" target="_blank" class="map-directions-btn">🗺️ Open Turn-by-Turn Directions</a>
           <ul class="streets">
             <li><span class="st-name">Burkhart Rd (16000–19000)</span><span class="st-ct">~37</span><span class="st-pri pri-h">HIGH</span></li>
             <li><span class="st-name">Church Rd (north section)</span><span class="st-ct">~33</span><span class="st-pri pri-h">HIGH</span></li>
@@ -1110,7 +1120,7 @@ footer strong { color:#7788aa; }
           <div class="team-doors">~68<br>doors</div>
         </div>
         <div class="team-body">
-          <div class="team-map"><iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCtxVeYaj6Ag1w_eyzHQ5LpvaA59EEtOOU&origin=York+Rd,+Orrville,+OH+44667&destination=Tannerville+Rd,+Orrville,+OH+44667&mode=driving" allowfullscreen loading="lazy"></iframe></div>
+          <div class="team-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-81.880%2C40.835%2C-81.810%2C40.880&layer=mapnik" allowfullscreen loading="lazy"></iframe></div><a href="https://www.google.com/maps/dir/York+Rd,+Dalton,+OH+44618/Tannerville+Rd,+Dalton,+OH+44618" target="_blank" class="map-directions-btn">🗺️ Open Turn-by-Turn Directions</a>
           <ul class="streets">
             <li><span class="st-name">York Rd</span><span class="st-ct">32</span><span class="st-pri pri-h">HIGH</span></li>
             <li><span class="st-name">Tannerville Rd (Ba-1)</span><span class="st-ct">~20</span><span class="st-pri pri-h">HIGH</span></li>
@@ -1129,7 +1139,7 @@ footer strong { color:#7788aa; }
           <div class="team-doors">~57<br>doors</div>
         </div>
         <div class="team-body">
-          <div class="team-map"><iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCtxVeYaj6Ag1w_eyzHQ5LpvaA59EEtOOU&origin=N+Mt+Eaton+Rd,+Orrville,+OH+44667&destination=Emmitsburg+Rd,+Orrville,+OH+44667&mode=driving" allowfullscreen loading="lazy"></iframe></div>
+          <div class="team-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-81.810%2C40.840%2C-81.740%2C40.890&layer=mapnik" allowfullscreen loading="lazy"></iframe></div><a href="https://www.google.com/maps/dir/N+Mt+Eaton+Rd,+Orrville,+OH+44667/Emmitsburg+Rd,+Orrville,+OH+44667" target="_blank" class="map-directions-btn">🗺️ Open Turn-by-Turn Directions</a>
           <ul class="streets">
             <li><span class="st-name">N Mt Eaton Rd (Ba-1)</span><span class="st-ct">22</span><span class="st-pri pri-h">HIGH</span></li>
             <li><span class="st-name">Burton City Rd</span><span class="st-ct">20</span><span class="st-pri pri-h">HIGH</span></li>
@@ -1148,7 +1158,7 @@ footer strong { color:#7788aa; }
           <div class="team-doors">~54<br>doors</div>
         </div>
         <div class="team-body">
-          <div class="team-map"><iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCtxVeYaj6Ag1w_eyzHQ5LpvaA59EEtOOU&origin=Rehm+Rd,+Dalton,+OH+44618&destination=Wayne+St,+Dalton,+OH+44618&mode=driving" allowfullscreen loading="lazy"></iframe></div>
+          <div class="team-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-81.930%2C40.855%2C-81.850%2C40.900&layer=mapnik" allowfullscreen loading="lazy"></iframe></div><a href="https://www.google.com/maps/dir/Rehm+Rd,+Dalton,+OH+44618/Wayne+St,+Dalton,+OH+44618" target="_blank" class="map-directions-btn">🗺️ Open Turn-by-Turn Directions</a>
           <ul class="streets">
             <li><span class="st-name">Rehm Rd</span><span class="st-ct">15</span><span class="st-pri pri-m">MED</span></li>
             <li><span class="st-name">Dalton Fox Lake Rd</span><span class="st-ct">22</span><span class="st-pri pri-h">HIGH</span></li>
@@ -1167,7 +1177,7 @@ footer strong { color:#7788aa; }
           <div class="team-doors">~64<br>doors</div>
         </div>
         <div class="team-body">
-          <div class="team-map"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCtxVeYaj6Ag1w_eyzHQ5LpvaA59EEtOOU&q=Marshallville,+OH+44645" allowfullscreen loading="lazy"></iframe></div>
+          <div class="team-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-81.970%2C40.895%2C-81.925%2C40.925&layer=mapnik&marker=40.910,-81.947" allowfullscreen loading="lazy"></iframe></div><a href="https://www.google.com/maps/dir/Park+St,+Marshallville,+OH+44645/N+Deerfield+Ave,+Marshallville,+OH+44645" target="_blank" class="map-directions-btn">🗺️ Open Turn-by-Turn Directions</a>
           <ul class="streets">
             <li><span class="st-name">Park St</span><span class="st-ct">15</span><span class="st-pri pri-v">VILLAGE</span></li>
             <li><span class="st-name">Euclid St</span><span class="st-ct">15</span><span class="st-pri pri-v">VILLAGE</span></li>
@@ -1188,7 +1198,7 @@ footer strong { color:#7788aa; }
           <div class="team-doors">~64<br>doors</div>
         </div>
         <div class="team-body">
-          <div class="team-map"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCtxVeYaj6Ag1w_eyzHQ5LpvaA59EEtOOU&q=W+Church+St,+Marshallville,+OH+44645" allowfullscreen loading="lazy"></iframe></div>
+          <div class="team-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-81.968%2C40.888%2C-81.925%2C40.918&layer=mapnik&marker=40.905,-81.947" allowfullscreen loading="lazy"></iframe></div><a href="https://www.google.com/maps/dir/W+Church+St,+Marshallville,+OH+44645/S+Main+St,+Marshallville,+OH+44645" target="_blank" class="map-directions-btn">🗺️ Open Turn-by-Turn Directions</a>
           <ul class="streets">
             <li><span class="st-name">W Church St</span><span class="st-ct">13</span><span class="st-pri pri-v">VILLAGE</span></li>
             <li><span class="st-name">E Church St</span><span class="st-ct">10</span><span class="st-pri pri-v">VILLAGE</span></li>
@@ -1209,7 +1219,7 @@ footer strong { color:#7788aa; }
           <div class="team-doors">~69<br>doors</div>
         </div>
         <div class="team-body">
-          <div class="team-map"><iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCtxVeYaj6Ag1w_eyzHQ5LpvaA59EEtOOU&origin=Fulton+Rd,+Marshallville,+OH+44645&destination=Fox+Lake+Rd,+Marshallville,+OH+44645&mode=driving" allowfullscreen loading="lazy"></iframe></div>
+          <div class="team-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-81.990%2C40.855%2C-81.920%2C40.900&layer=mapnik" allowfullscreen loading="lazy"></iframe></div><a href="https://www.google.com/maps/dir/Fulton+Rd,+Marshallville,+OH+44645/Fox+Lake+Rd,+Marshallville,+OH+44645" target="_blank" class="map-directions-btn">🗺️ Open Turn-by-Turn Directions</a>
           <ul class="streets">
             <li><span class="st-name">Fulton Rd</span><span class="st-ct">37</span><span class="st-pri pri-h">HIGH</span></li>
             <li><span class="st-name">Fox Lake Rd</span><span class="st-ct">32</span><span class="st-pri pri-h">HIGH</span></li>
@@ -1227,7 +1237,7 @@ footer strong { color:#7788aa; }
           <div class="team-doors">~61<br>doors</div>
         </div>
         <div class="team-body">
-          <div class="team-map"><iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCtxVeYaj6Ag1w_eyzHQ5LpvaA59EEtOOU&origin=12000+Back+Massillon+Rd,+Orrville,+OH+44667&destination=15999+Back+Massillon+Rd,+Orrville,+OH+44667&mode=driving" allowfullscreen loading="lazy"></iframe></div>
+          <div class="team-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-81.910%2C40.835%2C-81.840%2C40.878&layer=mapnik" allowfullscreen loading="lazy"></iframe></div><a href="https://www.google.com/maps/dir/12000+Back+Massillon+Rd,+Orrville,+OH+44667/15999+Back+Massillon+Rd,+Orrville,+OH+44667" target="_blank" class="map-directions-btn">🗺️ Open Turn-by-Turn Directions</a>
           <ul class="streets">
             <li><span class="st-name">Back Massillon Rd (12000–15999)</span><span class="st-ct">~27</span><span class="st-pri pri-h">HIGH</span></li>
             <li><span class="st-name">Coal Bank Rd (north)</span><span class="st-ct">~17</span><span class="st-pri pri-h">HIGH</span></li>
@@ -1246,7 +1256,7 @@ footer strong { color:#7788aa; }
           <div class="team-doors">~68<br>doors</div>
         </div>
         <div class="team-body">
-          <div class="team-map"><iframe src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCtxVeYaj6Ag1w_eyzHQ5LpvaA59EEtOOU&origin=16000+Back+Massillon+Rd,+Orrville,+OH+44667&destination=Fosnight+Rd,+Marshallville,+OH+44645&mode=driving" allowfullscreen loading="lazy"></iframe></div>
+          <div class="team-map"><iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-81.940%2C40.805%2C-81.855%2C40.855&layer=mapnik" allowfullscreen loading="lazy"></iframe></div><a href="https://www.google.com/maps/dir/16000+Back+Massillon+Rd,+Orrville,+OH+44667/Fosnight+Rd,+Marshallville,+OH+44645" target="_blank" class="map-directions-btn">🗺️ Open Turn-by-Turn Directions</a>
           <ul class="streets">
             <li><span class="st-name">Back Massillon Rd (16000–19000)</span><span class="st-ct">~27</span><span class="st-pri pri-h">HIGH</span></li>
             <li><span class="st-name">Fosnight Rd</span><span class="st-ct">28</span><span class="st-pri pri-h">HIGH</span></li>
@@ -1486,13 +1496,13 @@ footer strong { color:#7788aa; }
         <h4>Noelle Ressler</h4>
         <div class="role">Campaign Lead</div>
         <div class="ci"><span class="icon">📞</span><a href="tel:2162948358">216-294-8358</a></div>
-        <div class="ci"><span class="icon">📧</span><a href="mailto:noeller@rbrconsulting.biz">noeller@rbrconsulting.biz</a></div>
+        <div class="ci"><span class="icon">📧</span><a href="/cdn-cgi/l/email-protection#6d0302080101081f2d1f0f1f0e02031e18011904030a430f0417"><span class="__cf_email__" data-cfemail="543a3b313838312614263626373b3a272138203d3a337a363d2e">[email&#160;protected]</span></a></div>
       </div>
       <div class="contact-card">
         <h4>John Rutter</h4>
         <div class="role">Campaign Support</div>
         <div class="ci"><span class="icon">📞</span><a href="tel:3304659001">330-465-9001</a></div>
-        <div class="ci"><span class="icon">📧</span><a href="mailto:jrutter@hypercrawl.com">jrutter@hypercrawl.com</a></div>
+        <div class="ci"><span class="icon">📧</span><a href="/cdn-cgi/l/email-protection#6e041c1b1a1a0b1c2e06171e0b1c0d1c0f1902400d0103"><span class="__cf_email__" data-cfemail="c2a8b0b7b6b6a7b082aabbb2a7b0a1b0a3b5aeeca1adaf">[email&#160;protected]</span></a></div>
       </div>
       <div class="contact-card cc-blue">
         <h4>Wayne County Board of Elections</h4>
@@ -1530,7 +1540,7 @@ footer strong { color:#7788aa; }
   <button class="pbtn pbtn-out" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Top</button>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // ── COUNTDOWN CLOCK ──
 function tick() {
   const now = new Date();
@@ -1586,14 +1596,4 @@ function handleSubmit(e) {
     `Name: ${fname} ${lname}\nEmail: ${email}\nPhone: ${phone||'Not provided'}\n` +
     `Address: ${address||'Not provided'}\nArea: ${precinct||'Not specified'}\n` +
     `How they want to help: ${helps||'Not specified'}\nMessage: ${message||'None'}\n\n` +
-    `Submitted via Baughman Levy Campaign Website`
-  );
-  const subject = encodeURIComponent(`New Volunteer: ${fname} ${lname} — Baughman Levy Campaign`);
-  window.location.href = `mailto:noeller@rbrconsulting.biz?subject=${subject}&body=${body}`;
-  document.getElementById('volunteerForm').style.display = 'none';
-  document.getElementById('formSuccess').style.display = 'block';
-}
-</script>
-
-</body>
-</html>
+    `Submitted v
